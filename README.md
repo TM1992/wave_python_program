@@ -1,6 +1,7 @@
 # wave_python_program
 
 # ・This program is a program that removes most of the vocal sound from songs.
+# ・This program utilizes the short-time Fourier transform and its inverse.
 # ・We cannot be held responsible for any damage caused by using this program.
 # ・The processing time is more than twice the length of the song.
 # ・The processed wave file will have almost the same key as the original song by setting the speed to 0.92x, transpose to -1, and tune to -20.
@@ -23,6 +24,7 @@
 #    that's all
 
 # ・このプログラムは、楽曲からボーカル音の大部分を除去するプログラムです。
+# ・このプログラムは、短時間フーリエ変換およびその逆変換を利用しています。
 # ・本プログラムの利用により生じたいかなる損害についても、このプログラムの開発者は一切の責任を負いません。
 # ・処理時間は曲の長さの 2 倍以上かかります。
 # ・速度を 0.92 倍、トランスポーズを -1、チューニングを -20 に設定すると、処理された wave ファイルは元の曲とほぼ同じキーになります。
