@@ -146,9 +146,6 @@ def inst_test(file_name_1, file_name_2, mode="precision", Lf_ = 2**11, phase_ = 
 
     S_ = (S_1 / 2) - (( S_2 / 2) * cmath.rect(1,phase_rad))
 
-    # フーリエスペクトルをn乗する
-    #（nを大きくすると、音量の大きな周波数が残る）
-    #（nを小さくすると、どの周波数も同じ音量になる）
     S_max_ = np.max(np.abs(S_))
     S_ /= S_max_ #
     S_max_ = np.max(np.abs(S_))
